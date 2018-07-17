@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5CAE9"
+    android:orientation="vertical"
+    tools:context=".SongPlay2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/threeZero"
+            android:contentDescription="@string/songPic"
+            android:src="@drawable/music2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="@dimen/oneZero"
+            android:text="@string/song2"
+            android:fontFamily="cursive"
+            android:textSize="@dimen/threeZeros" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/artist2"
+            android:textSize="@dimen/oneFive" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twoZero" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/twoZero"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:contentDescription="@string/shuffle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shuffle"
+                android:onClick="shuffle"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="previous"
+                android:contentDescription="@string/previous"
+                android:src="@drawable/ic_skip_previous_black_24dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="play"
+                android:contentDescription="@string/play"
+                android:src="@drawable/play" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="next"
+                android:contentDescription="@string/next"
+                android:src="@drawable/ic_skip_next_black_24dp" />
+
+            <ImageView
+                android:contentDescription="@string/addToPlaylist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/playlist_add"
+                android:onClick="addToPlaylist"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

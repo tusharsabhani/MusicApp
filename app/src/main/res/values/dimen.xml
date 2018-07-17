@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oneSix">16dp</dimen>
+    <dimen name="threeZero">30dp</dimen>
+    <dimen name="oneZero">10dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="oneFiveZero">150dp</dimen>
+    <dimen name="twoZero">20dp</dimen>
+
+    <dimen name="oneFive">15sp</dimen>
+    <dimen name="threeZeros">30sp</dimen>
+</resources>

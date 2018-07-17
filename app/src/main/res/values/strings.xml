@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="songPic">This is the cover pic of the song</string>
+
+    <string name="song">Shape of You</string>
+    <string name="artist">Ed Sheeran</string>
+
+    <string name="song2">Faded</string>
+    <string name="artist2">Alan Walker</string>
+
+    <string name="play">Play Button</string>
+    <string name="previous">Previous Button</string>
+    <string name="next">Next Button</string>
+    <string name="shuffle">Shuffle songs button</string>
+    <string name="addToPlaylist">Add the song to playlist button</string>
+
+    <string name="download">Icon for downloading song</string>
+    <string name="favorite">Icon for saving the song in favorites</string>
+
+    <string name="playing">Now Playing</string>
+    <string name="library">Library</string>
+</resources>
